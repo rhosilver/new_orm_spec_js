@@ -9,8 +9,10 @@ iphone:
   configuration: Release
   sdk: iphonesimulator8.1
   provisionprofile:
-  codesignidentity:
-  entitlements:
+  codesignidentity: "iPhone Developer"
+  entitlements: ./production/Entitlements.plist
+  BundleIdentifier: "com.rhomobile.newormspecjs"
+  BundleURLScheme: "newormspecjs"
 android:
   version: 4.4.2
 
